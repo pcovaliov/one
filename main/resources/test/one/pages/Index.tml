@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Big shope A Ecommerce Category Flat Bootstarp Resposive Website Template | Home :: w3layouts</title>
+<title>${message:title}</title>
 <link href="./css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!--theme-style-->
 <link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />	
@@ -75,9 +75,9 @@ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); func
 				</div>
 				<div class="header-bottom-right">
 					<ul class="men-grid">
-						<li><a href="login.html"><span> </span>YOUR ACCOUNT</a></li>
-						<li class="login"><a href="login.html"><span> </span>LOGIN</a>|</li>
-						<li class="cart"><a href="#"><span> </span>CART</a></li>
+						<li><a href="login.html"><span> </span>${message:your-account}</a></li>
+						<li class="login"><a href="login.html"><span> </span>${message:login}</a>|</li>
+						<li class="cart"><a href="#"><span> </span>${message:cart}</a></li>
 					</ul>
 					<div class="sign-up-right">
 						<a href="register.html">SIGNUP</a>
