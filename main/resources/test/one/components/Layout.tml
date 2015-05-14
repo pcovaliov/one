@@ -22,7 +22,7 @@ Description: A Web 2.0 design with fluid width suitable for blogs and small webs
         <div class="header">
             <div class="logo">
                 <h1>
-                    <t:pagelink page="index">test:one</t:pagelink>
+                    <t:pagelink page="index">PAGE TITLE</t:pagelink>
                     &nbsp;
                     version ${appVersion}
                 </h1>
