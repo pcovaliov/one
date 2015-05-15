@@ -1,0 +1,10 @@
+/*Importing header settings for MainLayout*/
+@import url("mainlayoutheader.css");
+
+/*Importing footer settings for MainLayout*/
+@import url("mainlayoutfooter.css");
+
+body {
+	width: 1024px;
+	margin: auto;
+}

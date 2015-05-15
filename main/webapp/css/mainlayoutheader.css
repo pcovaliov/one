@@ -1,0 +1,9 @@
+/* 
+MainLayout header css settings
+*/
+#mainlayoutheader  {
+	display: block;
+	height: 200px;
+	width: 1024px;
+	background: #CCCCCC;
+}
