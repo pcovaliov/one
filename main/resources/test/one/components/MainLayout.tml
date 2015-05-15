@@ -5,10 +5,18 @@
 		<title>My web page</title>
 	</head>
 	<body>
-		<header id="mainlayoutheader"></header>
+		<header id="mainlayoutheader">
+			<t:PageLink t:page="Index">${message:home}</t:PageLink>
+			<t:PageLink t:page="About">${message:about}</t:PageLink>
+			<t:PageLink t:page="Contact">${message:contact}</t:PageLink>
+		</header>
 		<section>
 			<t:body/>
 		</section>
-		<footer id="mainlayoutfooter"></footer>
+		<footer id="mainlayoutfooter">
+			<t:PageLink t:page="Index">${message:home}</t:PageLink>
+			<t:PageLink t:page="About">${message:about}</t:PageLink>
+			<t:PageLink t:page="Contact">${message:contact}</t:PageLink>
+		</footer>
 	</body>
 </html>
