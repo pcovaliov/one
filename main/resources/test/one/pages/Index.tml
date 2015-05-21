@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
 <head>
 <title>${message:title}</title>
-<link href="./css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!--theme-style-->
-<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <script type="application/x-javascript">
@@ -37,22 +37,15 @@ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); func
 				</div>
 				<div class="top-header-right">
 				 <div class="down-top">
-						
-						 <select tabindex="4" class="dropdown">
-						 	<option value="" class="label">English</option>
-							<option value="1">Japanese</option>
-							<option value="2">French</option>
-							<option value="3">German</option>
-						  </select>
+					 <div class="dropdown">
+							<t:ActionLink t:id="english">English</t:ActionLink>
+							<br/>
+							<t:ActionLink t:id="french">French</t:ActionLink>
+							<br/>
+							<t:ActionLink t:id="german">German</t:ActionLink>
+						</div>
 					 </div>
-					<div class="down-top top-down">
-						
-						 <select tabindex="4" class="dropdown ">
-						 	<option value="" class="label">Currency :USD</option>
-							<option value="1">Dollar</option>
-							<option value="2">Euro</option>
-						  </select>
-					 </div>
+					
 					
 					 <!---->
 					<div class="clearfix"> </div>	
@@ -151,7 +144,7 @@ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); func
 		   		     		<h4>consectetur  elit</h4>
 		   		     		<span>FOR ALL PURCHASE VALUE</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
-							<a class="now-get" href="#">GET NOW</a>
+							<t:actionlink t:id="getNow" class="now-get">GET NOW</t:actionlink>
 						</div>
 						<a href="single.html"><img class="img-responsive shoe-left" src="./images/sh.jpg" alt=" " /></a>
 						<div class="clearfix"> </div>
