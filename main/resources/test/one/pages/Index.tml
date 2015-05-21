@@ -68,8 +68,8 @@ addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); func
 				</div>
 				<div class="header-bottom-right">
 					<ul class="men-grid">
-						<li><a href="login.html"><span> </span>${message:your-account}</a></li>
-						<li class="login"><a href="login.html"><span> </span>${message:login}</a>|</li>
+						<li><a href="login"><span> </span>${message:your-account}</a></li>
+						<li class="login"><t:actionlink t:id="login"><span> </span>${message:login}</t:actionlink>|</li>
 						<li class="cart"><a href="#"><span> </span>${message:cart}</a></li>
 					</ul>
 					<div class="sign-up-right">

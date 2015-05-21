@@ -1,8 +1,13 @@
 package test.one.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingCart {
+	
+	public ShoppingCart(){
+		goods = new ArrayList<String>();
+	}
 	private List<String> goods;
 	
 	private Integer number;
